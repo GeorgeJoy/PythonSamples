@@ -15,4 +15,4 @@ def print_words(word_list):
 
 print(__name__)
 if __name__ == "__main__":
-    print_words(fetch())
+    print_words(fetch(sys.argv[1]))
